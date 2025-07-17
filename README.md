@@ -27,15 +27,15 @@ Tech Stack
 Project Structure
 
 credit-card-fraud-shap/
-├── app.py                # Main Streamlit dashboard
-├── requirements.txt      # Required Python packages
-├── models/
-│   └── xgb_model.pkl     # Trained XGBoost model
-├── data/
-│   └── X_test.csv        # Sample input for testing
-├── notebooks/
-│   └── eda_cc.ipynb      # EDA & model training notebook
-└── README.md             # Project documentation
+ app.py                # Main Streamlit dashboard  --
+ requirements.txt      # Required Python packages --
+ models -
+   xgb_model.pkl     # Trained XGBoost model --
+ data -
+  X_test.csv        # Sample input for testing --
+ notebooks -
+  eda_cc.ipynb      # EDA & model training notebook --
+ README.md             # Project documentation
 
 
 Model Explainability

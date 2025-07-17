@@ -10,7 +10,7 @@ st.title(" Credit Card Fraud Detection with SHAP Explainability")
 st.markdown("Built using **XGBoost** and **SHAP** — audit-compliant model interpretability for finance.")
 
 # Load trained model
-model = joblib.load("models/xgb_model.pkl") 
+model = joblib.load("C:/Users/diyag/OneDrive/Pictures/Desktop/fraud_detection_with_shap/xgb_model.pkl") 
 
 # Upload test CSV
 uploaded_file = st.file_uploader("Upload your test CSV file (X_test.csv)", type=["csv"])

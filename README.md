@@ -45,9 +45,9 @@ SHAP Force Plot: Explains individual predictions, showing why a transaction was 
 
 Screenshots
   Dashboard - ![Dashboard](screenshots/Dashboard.png)
-  Fraud Detection Table- ![Fraud Table](screenshots/Detected Fraudulent Transactions.png)
-  SHAP Summary Plot-![SHAP Summary](screenshots/shap_summary.png)
-  SHAP Force Plot-![SHAP Force Plot](screenshots/shap_force.png)
+  Fraud Detection Table- ![Fraud Table](screenshots/Detected_Fraudulent_Transactions.png)
+  SHAP Summary Plot-![SHAP Summary](screenshots/SHAP_summary_plot.png)
+  SHAP Force Plot-![SHAP Force Plot](screenshots/Force_plot.png)
 
 
 Future Enhancements

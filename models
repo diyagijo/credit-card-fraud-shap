@@ -1,0 +1,5 @@
+mkdir models
+mv xgb_model.pkl models/
+git add models/xgb_model.pkl
+git commit -m "Added trained model for deployment"
+git push origin main

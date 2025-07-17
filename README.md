@@ -27,7 +27,9 @@ Tech Stack
 Project Structure
 
 credit-card-fraud-shap/
- app.py                # Main Streamlit dashboard  --
+ app.py                # Main Streamlit dashboard  -- 
+ shap_explainer.py    # Script for standalone SHAP analysis
+ 
  requirements.txt      # Required Python packages --
  models -
    xgb_model.pkl     # Trained XGBoost model --
@@ -35,6 +37,14 @@ credit-card-fraud-shap/
   X_test.csv        # Sample input for testing --
  notebooks -
   eda_cc.ipynb      # EDA & model training notebook --
+ screenshots - 
+│   ├── dashboard.png
+│   ├── fraud_table.png
+│   ├── shap_summary.png
+│   └── shap_force.png
+
+
+  
  README.md             # Project documentation
 
 

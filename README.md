@@ -45,15 +45,18 @@ SHAP Force Plot: Explains individual predictions, showing why a transaction was 
 
 Screenshots
   Dashboard - ![Dashboard](screenshots/Dashboard.png)
-  Fraud Detection Table- ![Detected Fraudulent Transactions](screenshots/Detected Fraudulent Transactions.png)
-  SHAP Summary Plot-![SHAP Summary Plot](screenshots/SHAP Summary Plot.png)
-  SHAP Force Plot-![Shap Force Plot](screenshots/Shap Force Plot.png)
+  Fraud Detection Table- ![Fraud Table](screenshots/Detected Fraudulent Transactions.png)
+  SHAP Summary Plot-![SHAP Summary](screenshots/shap_summary.png)
+  SHAP Force Plot-![SHAP Force Plot](screenshots/shap_force.png)
 
 
 Future Enhancements
   Export fraud predictions as downloadable CSV
   Add ROC curve visualization in the app
   Implement user authentication for secure access
+  Detected Fraudulent Transactions.png
+  SHAP Summary Plot.png
+  screenshots/Shap Force Plot.png
 
 
 

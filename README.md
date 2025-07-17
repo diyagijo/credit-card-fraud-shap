@@ -1,16 +1,14 @@
 Credit Card Fraud Detection with SHAP Explainability
 
-Live App:https://credit-card-fraud-shap-rp5r4u4gtkqk3gaf6x9b7x.streamlit.app/
+Live App:[(https://credit-card-fraud-shap-rp5r4u4gtkqk3gaf6x9b7x.streamlit.app/)](https://credit-card-fraud-shap-rp5r4u4gtkqk3gaf6x9b7x.streamlit.app/)
 
 
 Overview
-This project detects fraudulent credit card transactions using XGBoost and explains predictions with SHAP to ensure model transparency and compliance with financial auditing standards.
-
-The solution is deployed as an interactive Streamlit dashboard, allowing real-time fraud prediction and detailed interpretability visualizations.
+ This project detects fraudulent credit card transactions using XGBoost and explains predictions with SHAP to ensure model transparency and compliance with financial auditing standards.
+ The solution is deployed as an interactive Streamlit dashboard, allowing real-time fraud prediction and detailed interpretability visualizations.
 
 
 Features
-
  Real-time fraud prediction using XGBoost
  Fraud probability score for every transaction
  SHAP Summary Plot for global feature importance
@@ -19,16 +17,11 @@ Features
 
 
 Tech Stack
-
-Language: Python 3.10+
-
-ML Algorithm: XGBoost
-
-Explainability: SHAP
-
-Web App: Streamlit
-
-Other Libraries: Pandas, Matplotlib, Scikit-learn, Joblib
+ Language: Python 3.10+
+ ML Algorithm: XGBoost
+ Explainability: SHAP
+ Web App: Streamlit
+ Other Libraries: Pandas, Matplotlib, Scikit-learn, Joblib
 
 
 Project Structure
@@ -47,11 +40,22 @@ credit-card-fraud-shap/
 
 Model Explainability
 SHAP Summary Plot: Highlights which features have the most influence globally across all predictions.
-
 SHAP Force Plot: Explains individual predictions, showing why a transaction was classified as fraud.
 
 
 Screenshots
+  Dashboard - screenshots/dashboard.png
+  Fraud Detection Table-screenshots/Detected Fraudulent Transactions.png
+  SHAP Summary Plot-screenshots/shap_summary.png
+  SHAP Force Plot-screenshots/shap_force.png
+
+
+Future Enhancements
+  Export fraud predictions as downloadable CSV
+  Add ROC curve visualization in the app
+  Implement user authentication for secure access
+
+
 
 
 
